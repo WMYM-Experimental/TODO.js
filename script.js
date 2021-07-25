@@ -29,4 +29,6 @@ document.querySelector("#push").onclick = function () {
       this.classList.toggle("completed");
     };
   }
+
+  document.querySelector("#new-task input").value = "";
 };
