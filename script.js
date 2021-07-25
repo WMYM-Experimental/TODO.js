@@ -8,6 +8,9 @@ document.querySelector("#push").onclick = function () {
                 ${document.querySelector("#new-task input").value}
                 </span>
                 <button class="delete">
+                    <span class="material-icons material-icons-outlined">
+                    delete_forever
+                    </span>
                 </button>
             </div>
     `;
