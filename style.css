@@ -38,6 +38,8 @@ body {
   font-weight: 500;
   position: relative;
 }
+#new-task input:focus {
+}
 #new-task button {
   float: right;
   width: 20px;
@@ -46,4 +48,8 @@ body {
   border-radius: 5px;
   font-weight: 500;
   position: relative;
+  background-color: #a6ffcb;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
 }
