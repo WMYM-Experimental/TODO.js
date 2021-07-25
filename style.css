@@ -29,3 +29,12 @@ body {
   font-weight: 500;
   position: relative;
 }
+#new-task input {
+  width: 70%;
+  height: 45px;
+  font-size: 18px;
+  border: 1px solid #d1d2d3;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+}
