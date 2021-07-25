@@ -3,13 +3,13 @@ document.querySelector("#push").onclick = function () {
     alert("Enter a Task c:");
   } else {
     document.querySelector("#tasks").innerHTML += `
-            <div id="tasks">
+            <div class="task">
                 <span id="taskName">
                 ${document.querySelector("#new-task input").value}
                 </span>
                 <button class="delete">
                     <span class="material-icons material-icons-outlined">
-                    delete_forever
+                    delete
                     </span>
                 </button>
             </div>
