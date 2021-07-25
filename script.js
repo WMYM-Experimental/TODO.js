@@ -15,4 +15,10 @@ document.querySelector("#push").onclick = function () {
             </div>
     `;
   }
+  let currentTasks = document.querySelectorAll(".delete");
+  for (let index = 0; index < currentTasks.length; index++) {
+    currentTasks[index].onclick = function () {
+      this.parentNode.remove();
+    };
+  }
 };
