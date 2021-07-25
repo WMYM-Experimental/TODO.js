@@ -79,3 +79,11 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
+.task button {
+  background-color: #12d8fa;
+  color: #ffffff;
+  height: 100%;
+  width: 40px;
+  border: none;
+  border-radius: 5px;
+}
