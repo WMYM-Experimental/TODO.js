@@ -8,7 +8,12 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(-135deg, #1fa2ff, #12d8fa);
+  background:
+  radial-gradient(circle at 50% 110%,
+  #020024 0.01%,
+  #285AEB 60%,
+  #00d4ff 130%
+  );
 }
 .container {
   width: 40%;
@@ -39,7 +44,7 @@ body {
 }
 #new-task input:focus {
   outline: none;
-  border-color: #12d8fa;
+  border-color: #1b80f1;
 }
 .push {
   position: relative;
@@ -51,8 +56,11 @@ body {
   border-radius: 50% 5px 5px 50%;
   border: none;
   color: #ffffff;
-  background-color: #12d8fa;
+  background-color: #1b80f1;
   cursor: pointer;
+}
+.push:hover {
+  font-weight: bold;
 }
 #tasks {
   position: relative;
@@ -79,7 +87,7 @@ body {
   font-weight: 500;
 }
 .task button {
-  background-color: #12d8fa;
+  background-color: #1b80f1;
   color: #ffffff;
   height: 100%;
   width: 40px;
@@ -90,5 +98,6 @@ body {
 }
 .completed {
   text-decoration: line-through;
+  text-shadow: 1px 1px #e63946;
   color: #e63946;
 }
