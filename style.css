@@ -24,7 +24,7 @@ body {
   background-color: #ffffff;
   padding: 30px 20px;
   border-radius: 5px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.45);
 }
 #new-task input {
   width: 70%;
