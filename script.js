@@ -1,7 +1,10 @@
+document.getElementById('tasks').style.visibility = 'hidden';
+
 document.querySelector("#push").onclick = function () {
   if (document.querySelector("#new-task input").value.length == 0) {
     alert("Enter a Task c:");
   } else {
+    document.getElementById('tasks').style.visibility = 'visible';
     document.querySelector("#tasks").innerHTML += `
             <div class="task">
                 <span id="taskName">
@@ -31,4 +34,3 @@ document.querySelector("#push").onclick = function () {
   }
 
   document.querySelector("#new-task input").value = "";
-};
