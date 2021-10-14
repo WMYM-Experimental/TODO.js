@@ -34,3 +34,4 @@ document.querySelector("#push").onclick = function () {
   }
 
   document.querySelector("#new-task input").value = "";
+};
