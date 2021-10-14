@@ -1,7 +1,10 @@
+document.getElementById('tasks').style.visibility = 'hidden'; //make invicible until a task is made
+
 document.querySelector("#push").onclick = function () {
   if (document.querySelector("#new-task input").value.length == 0) {
     alert("Enter a Task c:");
   } else {
+    document.getElementById('tasks').style.visibility = 'visible'; //make visible
     document.querySelector("#tasks").innerHTML += `
             <div class="task">
                 <span id="taskName">
