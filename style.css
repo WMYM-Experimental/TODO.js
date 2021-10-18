@@ -95,6 +95,6 @@ body {
 }
 .completed {
   text-decoration: line-through;
-  text-shadow: 1px 1px #e63946;
-  color: #e63946;
+  text-shadow: 1px 1px #d9ed92;
+  color: #d9ed92;
 }
